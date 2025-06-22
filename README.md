@@ -1,6 +1,6 @@
 ## 💡 アイデア出しAIエージェント
-実現可能性まで含めたアイデアを最終的に出してくれるアイデア出しAIエージェントです。
-
+実現可能性まで含めたアイデアを最終的に出してくれるアイデア出しAIエージェントです。   
+・[ドクセルの発表資料](https://www.docswell.com/s/bmi921/Z2MLG6-2025-06-22-224300)
 ## 🚀 Getting started
 ```
 git clone https://github.com/bmi921/idea-refiner-ai-agent
