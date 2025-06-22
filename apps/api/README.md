@@ -7,3 +7,5 @@ pip install -r requirements.txt
 # dev
 adk web
 ```
+
+`.env.example`を`.env`にして、Google gemini API keyを追加してください。

@@ -4,6 +4,6 @@ LinkedIn Post Agent Subagents Package
 This package provides all subagents used in the LinkedIn post generation system.
 """
 
-from .post_generator import initial_post_generator
-from .post_refiner import post_refiner
-from .post_reviewer import post_reviewer
+from .idea_generator import idea_generator
+from .idea_refiner import idea_refiner
+from .idea_verifier import idea_verifier
