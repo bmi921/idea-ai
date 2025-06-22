@@ -1,21 +1,11 @@
-# idea-ai
-## Using this example
+```
+# 仮想環境の構築
+python -m venv .venv # 仮想環境を作成 (初回のみ)
+source .venv/bin/activate # 仮想環境をアクティベート (Windowsの場合は .\ .venv\Scripts\activate)
+pip install -r requirements.txt
 
-Run the following command:
-
-```bash
-git clone https://github.com/bmi921/idea-ai
-cd ../idea-ai
+# dev
+adk web
 ```
 
-## What's inside?
-
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
-
-- `api`:  [Google ADK](https://github.com/bmi921/idea-ai/edit/main/README.md) app
-- `web`:  [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a React component library for `web` application.
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+`.env.example`を`.env`にして、Google gemini API keyを追加してください。
