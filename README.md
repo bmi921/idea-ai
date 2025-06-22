@@ -1,6 +1,11 @@
 ## 💡 アイデア出しAIエージェント
 実現可能性まで含めたアイデアを最終的に出してくれるアイデア出しAIエージェントです。
+
+## 🚀 Getting started
 ```
+git clone https://github.com/bmi921/idea-refiner-ai-agent
+cd ./idea-refiner-ai-agent
+
 # 仮想環境の構築
 python -m venv .venv # 仮想環境を作成 (初回のみ)
 source .venv/bin/activate # 仮想環境をアクティベート (Windowsの場合は .\ .venv\Scripts\activate)
